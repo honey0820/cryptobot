@@ -81,8 +81,8 @@ class BotConfig:
         self.logbuysellinjson = False
         self.telegramdatafolder = "."
 
-        self.buypercent = 100
-        self.sellpercent = 100
+        self.buypercent = 0
+        self.sellpercent = 0
         self.last_action = None
         self._chat_client = None
         self.buymaxsize = None
