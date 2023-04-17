@@ -1,6 +1,6 @@
 # TradeGPT on Binance
 
-#```sh
+```sh
 git clone https://github.com/solvepy/tradeGPT
 cd tradeview
 pip install -r requirements-windows.txt
