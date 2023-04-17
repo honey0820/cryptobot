@@ -364,7 +364,7 @@ class BotConfig:
             raise
 
     def _set_recv_window(self):
-        recv_window = 5000
+        recv_window = 5500
         if self.cli_args["recvwindow"] and isinstance(self.cli_args["recvwindow"], int):
             if 5000 <= int(self.cli_args["recvwindow"]) <= 60000:
                 recv_window = int(self.cli_args["recvwindow"])
