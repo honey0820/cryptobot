@@ -1,8 +1,8 @@
-# Crypto Trading View Web APP
+# Crypto Trading View with GPT
 
 ## Clone Project 
 ```sh
-git clone https://github.com/solvepy/tradeview
+git clone https://github.com/solvepy/tradeGPT
 cd tradeview
 ```
 ## Install python 3.9+
