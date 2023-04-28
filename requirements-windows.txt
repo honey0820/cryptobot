@@ -7,6 +7,7 @@ statsmodels
 requests>=2.25.0
 matplotlib>=3.3.3
 mock>=4.0.3
+psutil >= 5.9.4
 pycryptodome>=3.12
 pytest
 pytest-mock
