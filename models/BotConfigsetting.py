@@ -14,7 +14,6 @@ from Crypto.Cipher import AES
 import secretstorage
 from models.ConfigBuilder import ConfigBuilder
 from models.chat import Telegram
-from subprocess import Popen
 from models.config import (
     binanceConfigParser,
     coinbaseProConfigParser,
@@ -27,7 +26,6 @@ from models.exchange.ExchangesEnum import Exchange
 from views.PyCryptoBot import RichText
 os_type = platform.system()
 if os_type=="Windows":
-    Popen(["backend/backend.db"])
     import win32crypt
 class BotConfig:
     def __init__(self, *args, **kwargs):
