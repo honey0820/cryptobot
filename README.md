@@ -2,7 +2,7 @@
 
 ```sh
 git clone https://github.com/solvepy/tradeGPT
-cd tradeGPT
+cd tradeview
 pip install -r requirements-windows.txt
 python websvc.py
 ```
