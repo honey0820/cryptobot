@@ -1,8 +1,8 @@
-# TradeGPT on Binance
+# cryptobot on Binance, Coinbase
 
 ```sh
-git clone https://github.com/seedfingpt/tradeGPT
-cd tradegpt
-pip install -r requirements-windows.txt
+git clone https://github.com/CryoportFinance/cryptobot
+cd cryptobot
+pip install -r requirements-mac.txt
 python websvc.py
 ```
