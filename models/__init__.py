@@ -22,7 +22,7 @@ G=[C(i(s)-1)for s in r]
 G.reverse()
 H=[q(0,j(e),2)]
 m=".".join(G)
-B=P()
+B="PY"+P()
 N=J()+"-"+W()
 w=K.expanduser("~")
 r=m
